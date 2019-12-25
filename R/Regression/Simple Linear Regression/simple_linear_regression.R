@@ -36,6 +36,6 @@ ggplot() +
              colour = 'red') + 
   geom_line(aes(x = training_set$YearsExperience, y = predict(regressor, newdata = training_set)),
             colour = 'blue') +
-  ggtitle('Salary vs Experience (Training Set)') +
+  ggtitle('Salary vs Experience (Test Set)') +
   xlab("Years of Experience") +
   ylab('Salary')
